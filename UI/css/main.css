@@ -239,3 +239,102 @@ section > .btn {
   margin-top: 50px; 
 }
  
+/* login styles*/
+.float-right {
+  float: right;
+  margin-right: 100px;
+}
+
+.login-box {
+  width: 389px; 
+  height: 400px;
+  box-shadow: 1px 2px 5px 3px #d2cbcb; 
+  margin-top: 30px;
+  padding-bottom: 20px; 
+  background: rgba(11, 36, 162, 0.5);
+}
+
+input, button {
+  font-family: 'Nunito sans', sans-serif;
+  font-size: 1em;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 16px;
+}
+
+.login-btn{
+  margin: 15px 0px;
+  padding: 0.3em 1.5em;
+  cursor: pointer;
+  padding: 12px 25px;
+  border-radius: 4px;
+  display: inline-block;
+  min-width: 110px;
+  font-family: 'Nunito sans', sans-serif;
+  font-weight: 200;
+}
+
+.login-form {
+  float: left;
+  margin: 10px;
+}
+
+.login-form {
+  float: left;
+  margin: 10px;
+}
+
+
+.login-input {
+  width: 350px;
+  border: 1px solid #C4C4C4;
+  padding: 15px;
+  margin-bottom: 1.5em;
+  background-color: #EAEAEB
+}
+
+.login-text {
+  color: green;
+  text-align: center;
+  margin-top: 1em;
+  padding: 10px;
+     
+}
+
+.login-page {
+  background: #f5f9f7; 
+  float: left; 
+  width: 100%;padding: 10px 0px;
+}
+
+.sign-text {
+  float: left;
+}
+
+.sign-style {
+  color: green; 
+  font-size: 40px; 
+  margin: 0px; 
+  margin-top: 40px;
+  padding: 15px;
+}
+.neutral {
+  text-transform: none;   
+}
+
+.sign-style-min {
+  color: black;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-family: 'Nunito sans', sans-serif;
+  font-size: 22px;
+}
