@@ -24,10 +24,6 @@ body.modal-open {
   overflow: hidden;
 }
 
-@-ms-viewport {
-    width: device-width;
-}
-
 footer, 
 header, 
 section {
@@ -493,4 +489,104 @@ button {
   color: #fff;
   background-color: #343fce;
   border-color: #343fce;
+}
+
+/* Profile styles */
+
+.profile-padding {
+  padding: 2px 4px;
+}
+
+.tab-content {
+  border: 1px solid #C5D0DC;
+  padding: 16px 12px;
+  position: relative
+}
+
+.profile-picture {
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  padding: 4px;
+  display: inline-block;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .15)
+}
+
+.profile-user-info {
+  display: table;
+  width: 98%;
+  width: calc(100% - 24px);
+  margin: 0 auto
+}
+
+.profile-info-row {
+  display: table-row
+}
+
+.profile-info-name {
+  display: table-cell;
+  border-top: 1px dotted rgb(183, 194, 204);
+  padding: 6px 10px 6px 4px;
+  font-weight: 400;
+  color: #667E99;
+  background-color: transparent;
+  width: 110px;
+  vertical-align: middle
+}
+
+.profile-info-value {
+  padding: 6px 4px 6px 6px
+}
+
+.profile-info-value>span::before {
+  display: none
+}
+
+.profile-table {
+  z-index: 100;
+  flex-basis: 73%;
+}
+
+table {
+  background: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+tr {
+  border-left: 3px solid #0facf3;
+}
+
+td .form-element {
+  margin-bottom: 0;
+}
+
+td,
+th {
+  padding: 20px 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+td.issue {
+  width: 30px;
+}
+
+td .report-user {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+tr > td:nth-child(4),
+tr > td:nth-child(5) {
+  text-align: center;
+}
+
+tr > td:last-child {
+  text-align: center;
 }
