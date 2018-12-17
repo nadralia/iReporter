@@ -576,6 +576,46 @@ td.issue {
   width: 30px;
 }
 
+/* Reports Table */
+.stats-table {
+  margin-top: 20px;
+  background: #fffffa;
+}
+
+.profile-table {
+  z-index: 100;
+  flex-basis: 73%;
+}
+
+.admin-table {
+  flex-basis: 100%;
+}
+
+.admin-table > .stats-table {
+  width: 100%;
+}
+
+.admin-report {
+  display: flex;
+  justify-content: space-between;
+  background: #fffffa;
+  padding: 25px;
+  margin-top: 20px;
+  border-left: 3px solid #0facf3;
+}
+
+.report-stat {
+  text-align: center;
+}
+
+.report-stat > p {
+  font-size: 3em;
+}
+
+.report-stat > span {
+  font-weight: 600;
+}
+
 td .report-user {
   font-size: 1em;
   text-align: center;
@@ -590,3 +630,4 @@ tr > td:nth-child(5) {
 tr > td:last-child {
   text-align: center;
 }
+
