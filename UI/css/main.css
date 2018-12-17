@@ -338,3 +338,42 @@ input::placeholder {
   font-family: 'Nunito sans', sans-serif;
   font-size: 22px;
 }
+
+/* signup Section */
+.signup-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-page {
+  background: #dfe0e2;
+  padding: 50px 40px 130px;
+  position: relative;
+}
+
+.signup-container > .signup-title,
+.signup-form {
+  align-self: center;
+}
+
+.signup-form {
+  width: 45%;
+  background: #fffffa;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  margin-top: 25px;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+label span {
+  color: #ef271b;
+  font-size: 18px;
+}
+
+.form-element {
+  margin-bottom: 15px;
+}
