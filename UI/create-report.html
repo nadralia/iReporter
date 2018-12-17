@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>iReporter || Report Corruption and Seek Government Intervention</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <!-- Begin header Section -->
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h1 class="logo-name">i<span class="green-color">Reporter</span></h1>
+			</div>
+			<div class="nav">
+				<a class="login-link" href="dashboard.html">Dashboard</a>
+                <a class="signup-link" href="profile.html">Profile</a>
+                <a class="signup-link" href="../UI/index.html">Log out</a>
+			</div>
+		</div>
+  </header>
+  <!-- End header Section -->
+  <!-- Begin create report Section -->
+  <section>
+    <p class="form-msg"> Please fill the form below as accurately as possible.<br> Feel free to attach Pictures and Videos to support your claims.</p>
+        <div class="container">
+            <div class="form-wrapper">
+            <form >
+                <div class="content-flex">
+                    <div class="mb-1rem col-md-4">
+                    <label for="firstname">Geo-Location</label>
+                    <input type="text" class="input-align" id="firstname" placeholder="Enter coordinates">
+                    </div>
+                </div>
+                <div class="content-flex">
+                    <div class="mb-1rem col-md-4">
+                    <label for="inputCity">Country <span>*required</span></label>
+                    <input type="text" class="input-align" id="inputCountry" placeholder="E.g Uganda">
+                    </div>
+                    <div class="mb-1rem col-md-4">
+                        <label for="inputCity">Street <span>*required</span></label>
+                        <input type="text" class="input-align" id="inputstreet" placeholder="E.g Kansanga">
+                        </div>
+                        <div class="mb-1rem col-md-4">
+                        <label for="inputCity">City <span>*required</span></label>
+                        <input type="text" class="input-align" id="inputCity" placeholder="E.g Kampala">
+                        </div>
+                </div>
+                <div class="mb-1rem">
+                        <label for="subject">Subject <span>*required</span></label>
+                        <input type="text" class="input-align" id="subject" placeholder="E.g Rigging at the polling unit ">
+                </div>
+                <div class="mb-1rem">
+                    <label for="textarea">Type message here <span>*required</span></label>
+                    <textarea class="input-align" id="textarea" rows="10" ></textarea>
+                </div>
+                <div class="mb-1rem">
+                    <label for="inputFile">Choose file</label>
+                    <input type="file" class="input-align-file" id="inputFile" name="inputFile" accept="file_extension,audio/*,video/*,image/*,media_type">
+                  </div>
+                 
+                <div class="mb-1rem">
+                    <label for="issue-type">Select Recorded type <span>*</span></label>
+                    <select type="text" id="issue-type" name="issue-type" class="form-element"
+                      required>
+                      <option default>-- Select Record Type --</option>
+                      <option value="red-flag">Red Flag</option>
+                      <option value="intervention">Intervention</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+        </div>
+    </div>
+    </section>
+    
+  <!-- End create report Section -->
+
+<!-- Begin footer Section -->
+<footer class="mb-1">
+    <div>
+        <h3 class="copyright">iReporter &copy; 2018 </h3>
+    </div>
+ </footer>
+ <!-- End footer Section -->
+</body>
+</html>
