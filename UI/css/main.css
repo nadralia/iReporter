@@ -631,3 +631,15 @@ tr > td:last-child {
   text-align: center;
 }
 
+.report-table {
+  background: #dfe0e2;
+  padding: 50px 40px 130px;
+  position: relative;
+}
+
+/* Reponsiveness */
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  section {
+    padding: 20px 60px;
+  }
+}
