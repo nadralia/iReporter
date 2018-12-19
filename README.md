@@ -10,10 +10,10 @@ Clone the project on your local machine for development and testing purposes.
 
 ## Project Links
 
-# Github pages
+### Github pages
 Visit: [iReporter](https://nadralia.github.io/iReporter/)
 
-# Pivotal tracker Link
+###Pivotal tracker Link
 Visit: [iReporter](https://www.pivotaltracker.com/n/projects/2231991)
 
 ## Required Features
