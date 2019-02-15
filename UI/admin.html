@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>iReporter || Add Reports</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/admin.css">
 </head>
 <body>
   <!-- Begin header Section -->
@@ -16,7 +17,7 @@
 			</div>
 			<div class="nav">
                 <a class="login-link" href="create-report.html">Create Report</a>
-                <a class="signup-link"href="view-reports.html">View Records</a>
+                <a class="signup-link"href="view-reports.html">View Reports</a>
                 <a class="signup-link" href="profile.html">Profile</a>
                 <a class="signup-link" href="../index.html">Log out</a>
 			</div>
@@ -48,207 +49,53 @@
           <span>Rejected</span>
         </div>
       </div>
-      <div class="dashboard">
-        <div class="admin-table">
-          <table class="stats-table">
-            <tbody>
-              <tr>
-                <th>S/N</th>
-                <th>Name of reporter</th>
-                <th>Issue</th>
-                <th>Date Reported</th>
-                <th>Location</th>
-                <th>Change Status</th>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>Sharon Joggo</strong>
-                  </a>
-                </td>
-                <td class="issue">Poor waste management and disposal</td>
-                <td>21-11-2018 11:30am</td>
-                <td>23 Main, Mbale</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                  </form>
-                </td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>Adralia Nelson</strong>
-                  </a>
-                </td>
-                <td class="issue">Collapse of bridge</td>
-                <td>21-11-2018 09:15am</td>
-                <td>18 awindiri, Arua</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                    <div class="message-box"></div>
-                  </form>
-                </td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>Nelson Okello</strong>
-                  </a>
-                </td>
-                <td class="issue">
-                  Containers parked on the highway causing traffic gridlock
-                </td>
-                <td>24-11-2018 03:00pm</td>
-                <td>20 gunit street, Gulu</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                    <div class="message-box"></div>
-                  </form>
-                </td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>Adralia Amos</strong>
-                  </a>
-                </td>
-                <td class="issue">Blocked drainage systems</td>
-                <td>23-11-2018 10:00am</td>
-                <td>180 kiwafu, kiwafu</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                    <div class="message-box"></div>
-                  </form>
-                </td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>Brian Aus</strong>
-                  </a>
-                </td>
-                <td class="issue">Power outage for 2 over weeks</td>
-                <td>25-11-2018 11:00am</td>
-                <td>123 kifi Street, Wakiso</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                    <div class="message-box"></div>
-                  </form>
-                </td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>Lydia Asu</strong>
-                  </a>
-                </td>
-                <td class="issue">Rigging at the polling unit</td>
-                <td>22-11-2018 04:00pm</td>
-                <td>Sheraton street, Kampala</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                    <div class="message-box"></div>
-                  </form>
-                </td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>Adralia John</strong>
-                  </a>
-                </td>
-                <td class="issue">Police extortion at check point</td>
-                <td>26-11-2018 02:20pm</td>
-                <td>30 Main Zone, Mukono</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                    <div class="message-box"></div>
-                  </form>
-                </td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>
-                  <a href="profile.html" class="report-user">
-                    <strong>David Asu</strong>
-                  </a>
-                </td>
-                <td class="issue">Pipeline leakage</td>
-                <td>23-11-2018 12:40pm</td>
-                <td>20 kiwafu Estate, Kansanga</td>
-                <td>
-                  <form action="">
-                    <select class="form-element" name="status" id="">
-                      <option value="drafted">Drafted</option>
-                      <option value="investigating">Investigating</option>
-                      <option value="resolved">Resolved</option>
-                      <option value="rejected">Rejected</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary update-record">Submit</button>
-                    <div class="message-box"></div>
-                  </form>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+	  <section class="section-admin">
+        <div class="section-admin-wrapper-div">
+            <div class="flex-box-main">
+                <!-- <div class="row-1-of-3">row-1-of-3</div> -->
+                <div class="row-1-of-3" id="div-table-title">
+                    <h2 class="heading-secondary-dark" id="table-title">
+                        Manage Reports
+                    </h2>
+                </div>
+                <div class="row-1-of-3" id="table-wrapper">
+                    <table class="table-admin" id="table-admin">
+                        <tr class="row">
+                            <td class="cell">ID</td>
+                            <td class="cell">Type</td>
+                            <td class="cell">Comment</td>
+							<td class="cell">image</td>
+							<td class="cell">video</td>
+                            <td class="cell">Location</td>
+                            <td class="cell">Created on</td>
+                            <td class="cell">Created by</td>
+                            <td class="cell">Status</td>
+                        </tr>
+                         <tr class="row">
+                            <td class="cell id">01</td>
+                            <td class="cell type">red-flag</td>
+                            <td class="cell comment">Embezzlement</td>
+							<td class="cell images">Embezzlement.jpg</td>
+							<td class="cell videos">Embezzlement.mp4</td>
+                            <td class="cell location">3.2342, 17.8392</td>
+                            <td class="cell createdon">02 - 11 - 2018</td>
+                            <td class="cell createdby">nadralia</td>
+                            <td class="cell status">
+                                <select name="status" id="status">
+                                    <option value="draft">draft</option>
+                                    <option value="under investigation">U.I</option>
+                                    <option value="resolved">resolved</option>
+                                    <option value="rejected">rejected</option>
+                                </select>
+                            </td>
+                        </tr> 
+                       
+                    </table>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+      
     </section>
   <!-- End admin control Section -->
 

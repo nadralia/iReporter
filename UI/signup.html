@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>iReporter || Sign Up</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
 </head>
 <body>
   <!-- Begin header Section -->
@@ -22,35 +23,84 @@
   </header>
   <!-- End of header Section -->
   <!-- Begin signup Section -->
-  <div class="signup-content">
-        <section class="signup-page signup-container">
-          <h2 class="signup-title">Sign Up</h2>
-          <form class="signup-form" >
-            <label for="firstname">First Name <span>*</span></label>
-            <input type="text" id="firstname" name="firstname" 
-             placeholder="Enter First Name"  class="signup-input form-element"/>
-            <label for="lastname">Last name <span>*</span></label>
-            <input type="text" id="lastname" name="lastname"
-             placeholder="Enter Last Name" class=" signup-input form-element" />
-            <label for="othername">other name</label>
-            <input type="text" id="othername" name="othername"
-             placeholder="Enter Other Name" class="signup-input form-element" />
-            <label for="email">Email Address <span>*</span></label>
-            <input type="email" id="email" name="email" 
-              placeholder="Enter Email"  class="signup-input form-element" />
-            <label for="phonenumber">Phone Number <span>*</span></label>
-            <input type="number" id="phonenumber" name="phonenumber"
-              placeholder="Enter Phone Number" class="signup-input form-element" />
-            <label for="password">Password <span>*</span></label>
-            <input type="password" id="password" name="password"
-              placeholder="Enter Password" class="signup-input form-element"/>
-            <label for="confirmpassword">Confirm Password <span>*</span></label>
-            <input type="password" id="confirmpassword" name="confirmpassword"
-              placeholder="Confirm your Password" class="signup-input form-element"/>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
-          </form>
-        </section>
-    </div>
+   <section class="signup">
+       <div class="signup-wrapper">
+           <div class="form-group-title">
+			  <span class="error" id="error"></span>
+			  <span class="success" id="success"></span>
+           </div>
+           <form action="#" class="signup-form">
+               <div class="signup-flexbox">
+                   <div class="firstname flex-child">
+                       <label for="firstname">First Name</label>
+                       <input type="text" id="firstname" required>
+					   <span class="error" id="firstname-error"></span>
+                   </div>
+                   <div class="lastname flex-child">
+                       <label for="lastname">Last Name</label>
+                       <input type="text" id="lastname" required>
+					   <span class="error" id="lastname-error"></span>
+                   </div>
+               </div> 
+               <div class="signup-flexbox">
+                <div class="othernames flex-child">
+                    <label for="othernames">Other Names</label>
+                    <input type="text" id="othernames" required>
+					<span class="error" id="othername-error"></span>
+                </div>
+                <div class="username flex-child">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+					<span class="error" id="username-error"></span>
+                </div>
+               </div> 
+               <div class="signup-flexbox">
+
+                <div class="password flex-child">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+					<span class="error" id="password-error"></span>
+                </div>
+				<div class="confirm-password flex-child">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirmpassword" required>
+					<span class="error" id="pass-error"></span>
+                </div>
+               </div> 
+               <div class="signup-flexbox">
+			    <div class="email flex-child">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" required>
+					<span class="error" id="email-error"></span>
+                </div>
+                <div class="phonenumber flex-child">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="text" id="phonenumber" required>
+					<span class="error" id="phone-error"></span>
+                </div>
+               </div> 
+			   <div class="signup-flexbox">
+			    <div class="profile-pic flex-child">
+                    <label for="profile-pic">Profile Picture</label>
+                    <input type="file" id="profile-pic">
+                </div>
+                <div class="gender flex-child">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+					    <option>Select Gender</option>
+					    <option value="Male">Male</option>
+						<option value="Female">Female</option>
+					</select>
+                </div>
+               </div> 
+               <div class="signup-flexbox" id="signup-flexbox-btn">
+                   <div class="flex-child div-btn-signup">
+                       <button class="btn-signup btn" id="btn-signup"> SignUp </button>
+                   </div>
+               </div> 
+           </form>
+       </div>
+   </section>
  <!-- End of signup Section -->
  <!-- Begin of footer Section -->
 <footer class="mb-1">
@@ -59,5 +109,8 @@
     </div>
  </footer>
  <!-- End of footer Section -->
+  <script src="js/main.js"></script>
+  <script src="js/signup.js"></script>
+  <script src="js/validation/signup.js"></script>
 </body>
 </html>

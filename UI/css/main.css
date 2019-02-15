@@ -146,8 +146,7 @@ section {
       to right bottom,
       rgba(11, 36, 162, 0.5),
       rgba(40, 180, 133, 0.8)
-    ),
-    url(../images/gfhf.jpg);
+    );
   background-size: cover;
   height: calc(100vh - 74px);
   justify-content: center;
@@ -656,4 +655,11 @@ tr > td:last-child {
   section {
     padding: 20px 60px;
   }
+}
+
+.error{
+  color:red;
+}
+.success{
+	color:lightgreen;
 }

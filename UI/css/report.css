@@ -1,0 +1,174 @@
+/*********************** INCIDENT PAGE *****************/
+.google-map {
+    width: 100%;
+    height:20rem;
+    border: 2px solid #35424a;
+    margin-left: 0;
+    padding: 0;
+}
+
+.geolocation-alert {
+	color: black;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.div-over-map-incident {
+    margin: 1rem auto;
+    width: 70%;
+}
+.incident-flex-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width: 95%;
+    margin: 0 auto;
+}
+.div-over-form-incident {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.incident-form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: rgba(250, 250, 210, .5);
+    margin: 2px;
+    padding: 2px;
+}
+
+
+#incident-input-flex-for-btn {
+    background-color: transparent;
+    justify-content: center;
+}
+.incident-field {
+    padding: 2px;
+    width: 48%;
+}
+
+.upload-label, .radio-label{
+	color: #000000;
+}
+.incident-field-for-radio, .incident-field-for-upload {
+    background-color: #eeeeee;
+}
+.incident-input-flex {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+} 
+
+.incident-form-input {
+   font: inherit;
+   width: 100%;
+   padding: .5rem .5rem .5rem .5rem;
+   outline: none;
+   color: black;
+   border: 2px solid #0facf3;
+   background-color: transparent;
+}
+
+
+textarea {
+    font: inherit;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    padding: 1rem;
+}
+#incident-field-textarea {
+    width: 100%;
+}
+
+#btn-get-current-location {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1rem;
+    color: #e8491d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.form-radio-group {
+    padding: .5rem .5rem .5rem .5rem;
+}
+.radio-input {
+    display: none;}
+.radio-label {
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 3.5rem;}
+
+.div-over-file-upload-group {
+    text-align: center;
+}
+.file-upload-group {
+   padding-top: 10px;
+   padding-bottom: 10px;
+    
+}
+.incident-input-file-upload {
+    box-sizing: border-box;
+    padding-right: 0;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.radio-button {
+    height: 1.8rem;
+    width: 1.8rem;
+    border: 5px solid #0facf3;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -.26rem;
+    left: 1.3rem;}
+	
+.radio-button::after { 
+    content: "";
+    display: block;
+    height: .8rem;
+    width: .8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 52%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background-color: #f8491e;
+    opacity: 0;
+    transition: opacity .5s;}
+	
+.radio-input:checked ~ .radio-label .radio-button::after {
+    opacity: 1;}
+.div-incident-form-btn {
+    width: 48%;
+}
+#create-incident-btn {
+	font-size: 1rem;
+	background-color: #0facf3;
+    width: 100%;
+}
+
+select  {
+    outline: 0;
+    overflow: hidden;
+    height: 40px;
+	width: 200px;
+    background: #2c343c;
+    color: #ffffff;
+    border: #2c343c;
+    padding: 5px 3px 5px 10px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 10px;
+}
+
+select option {border: 1px solid #000; background: #010;}
+/********************** (END INCIDENT PAGE) *************/
